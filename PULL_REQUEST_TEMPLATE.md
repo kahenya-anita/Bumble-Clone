@@ -1,6 +1,6 @@
 ## Description
 
-## Tixet[]()
+## Ticket[]()
 ## Types Of Changes
 [] Bug fix
 
