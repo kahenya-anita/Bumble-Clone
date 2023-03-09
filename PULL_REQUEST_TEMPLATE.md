@@ -1,6 +1,6 @@
 ## Description
 
-## Fixes()[]
+## Tixet[]()
 ## Types Of Changes
 [] Bug fix
 
@@ -20,7 +20,9 @@
 []My changes generate no new warnings.
 
 ## How can this code be tested?
-1. Clone this repo using ()[]
-2. Checkout to (Branchlink)[]
+1. After Cloning this repo , run `git pull
+` to ensure you are up to date. 
+2. Checkout to [Branchlink](Branchlink) - screenshots
 3. Run the changes in the browser
+4. SCREENSHOTS
 
