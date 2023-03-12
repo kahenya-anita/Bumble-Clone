@@ -1,0 +1,98 @@
+:root {
+    --white: #fff;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    margin: 0;
+    font-size: 1.6rem; /*16px*/
+  }
+  
+  .container {
+    padding: 2rem;
+  }
+  
+  figure {
+    margin: 1rem 0;
+  }
+  
+  figure > img {
+    height: 80vh;
+    width: 55vw;
+  }
+  
+  .ml {
+    margin-left: -10rem;
+  }
+  
+  .mr {
+    margin-right: -10rem;
+  }
+  
+  .how-it-starts,
+  .why-we-do-it {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .text-content {
+    display: flex;
+    flex-direction: column;
+  
+    background-color: var(--white);
+    padding: 2rem 3rem;
+    width: 70rem;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .text-content > h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 4rem;
+  }
+  
+  
+  
+  @media screen and (max-width: 1200px) {
+    .container {
+      padding: 0;
+    }
+  
+    .text-content {
+      width: 70%;
+    }
+  
+    figure > img {
+      width: 100vw;
+    }
+  
+    .how-it-starts,
+    .why-we-do-it {
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .how-it-starts {
+      flex-direction: column-reverse;
+    }
+  
+    .ml {
+      margin-left: 0;
+    }
+  
+    .mr {
+      margin-right: 0;
+    }
+  }
+  
